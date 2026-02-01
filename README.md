@@ -51,13 +51,14 @@
 
 > Each card is designed for a quick 30-second scan: **Problem → Solution → Stack → Links**
 
-### ⭐ 1) RAG Email Automation Assistant
-**Problem:** Auto-categorize inbound emails & draft replies using past communication history.  
-**Solution:** RAG pipeline + vector DB + templates → draft responses with context.  
-**Tech:** LangChain, OpenAI/Groq/HF, Chroma/FAISS/OpenSearch, FastAPI, Docker  
-🔗 **Repo:** https://github.com/YOUR_GITHUB_USERNAME/REPO_NAME  
-🎥 **Demo:** https://youtu.be/YOUR_DEMO_LINK
+### ⭐ 1) Kubernetes Observability Lab on AWS (Terraform + Minikube + ELK)
 
+**Problem:** Setting up a reproducible Kubernetes lab with centralized logging & monitoring on AWS is time-consuming and inconsistent when done manually.
+**Solution:** Terraform provisions AWS infrastructure and bootstraps a Minikube-based Kubernetes cluster, then installs Prometheus + Fluent Bit + Logstash + Elasticsearch + Kibana to view app and cluster logs in Kibana.
+**Tech:** Terraform, AWS (EC2/VPC/IAM), Ubuntu, Docker, Minikube, kubectl, Prometheus, Fluent Bit, Logstash, Elasticsearch, Kibana
+🔗 **Repo:** https://github.com/biswanathbose-cicd/terraform-minikube-elk-observability
+
+🎥 Demo: https://youtu.be/YOUR_DEMO_LINK
 ---
 
 ### ⭐ 2) Manufacturing Yield Analytics (Golden Batch / Best vs Worst)
