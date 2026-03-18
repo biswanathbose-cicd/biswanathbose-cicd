@@ -58,7 +58,7 @@
 **Tech:** Terraform, AWS (EC2/VPC/IAM), Ubuntu, Docker, Minikube, kubectl, Prometheus, Fluent Bit, Logstash, Elasticsearch, Kibana
 🔗 **Repo:** https://github.com/biswanathbose-cicd/terraform-minikube-elk-observability
 
-🎥 Demo: https://youtu.be/YOUR_DEMO_LINK
+🎥 Demo: https://www.youtube.com/watch?v=OQ-xL9RxJz8&t=7s
 ---
 
 ### ⭐ 2) Manufacturing Yield Analytics (Golden Batch / Best vs Worst)
