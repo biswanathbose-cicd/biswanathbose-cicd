@@ -65,7 +65,7 @@
 **Problem:** Identify yield variability drivers & process deviations across batches.  
 **Solution:** Statistical + ML analysis + dashboarding for root-cause insights.  
 **Tech:** Python, Dataiku, Power BI, Time-series, PCA/UVA/MVA  
-🔗 **Repo:** https://github.com/YOUR_GITHUB_USERNAME/REPO_NAME  
+🔗 **Repo:** https://github.com/biswanathbose-cicd/agentic-ai-app
 📊 **Dashboard Screens:** `assets/project_screenshots/yield_dashboard.png`
 
 ---
