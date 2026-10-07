@@ -73,10 +73,10 @@
 ## 🧭 Project Index (All Projects)
 | Category | Projects |
 |---|---|
-| GenAI / RAG | RAG Email Automation, Doc Intelligence RAG, Agentic Workflows |
-| Time Series | PI Tag Forecasting, Anomaly Detection, Feature Extraction |
-| Recommenders | Co-Clustering Recommender, Deep Learning Personalization |
-| MLOps / Deployment | FastAPI + Docker, CI/CD, MLflow Registration, K8s Deploy |
+| GenAI / RAG | RAG Email Automation, Doc Intelligence RAG, Agentic Workflows, Multi-Agent Support Assistant, LLM Evaluation & A/B Testing |
+| Predictive Analytics | Demand Forecasting (rolling-origin validation, prediction intervals) |
+| Data Engineering | Conversation-Log Pipeline (data quality, PII redaction, drift monitoring) |
+| MLOps / Deployment | FastAPI + Docker, CI/CD, MLflow Registration, K8s Deploy, Kubernetes Observability (Terraform + ELK) |
 
 > Tip: Keep **each project** either as (A) its own repo, or (B) a folder under `projects/` with a README.
 
