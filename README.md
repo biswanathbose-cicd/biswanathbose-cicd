@@ -79,11 +79,21 @@
 
 ---
 
+### ⭐ 4) Claude Support Triage Workflow (Human-in-the-Loop Support Automation)
+**Problem:** Support inboxes mix routine questions with refunds and security issues; automating replies blindly is risky.  
+**Solution:** A Claude (Messages API) workflow that classifies each ticket's category and priority via validated tool calls, routes refunds, security and low-confidence cases to a human approval queue, drafts replies with order-lookup and knowledge-base tools, applies guardrails and sends email with a full audit log. Routing is decided by code, not the model, so prompt injection cannot bypass the refund gate.  
+**Tech:** Python, Claude API (tool use), workflow/agent design, guardrails, SQLite audit log, unit testing  
+🔗 **Repo:** https://github.com/biswanathbose-cicd/claude-support-triage-agent  
+ℹ️ Synthetic data; live-model path is unit-tested but needs your API key to evaluate (see repo README).
+
+---
+
 ## 🧭 Project Index (All Projects)
 | Category | Projects |
 |---|---|
 | GenAI / RAG | RAG Email Automation, Doc Intelligence RAG, Agentic Workflows, Multi-Agent Support Assistant, LLM Evaluation & A/B Testing |
 | Predictive Analytics | Demand Forecasting (rolling-origin validation, prediction intervals) |
+| GenAI / Agents | Claude Support Triage Workflow (tool use, human-in-the-loop, guardrails, audit log) |
 | Applied ML / Algorithms | Incident Intelligence Engine (NLP triage, similarity search, profiling & benchmarks) |
 | Data Engineering | Conversation-Log Pipeline (data quality, PII redaction, drift monitoring) |
 | MLOps / Deployment | FastAPI + Docker, CI/CD, MLflow Registration, K8s Deploy, Kubernetes Observability (Terraform + ELK) |
