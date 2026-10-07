@@ -61,36 +61,12 @@
 🎥 Demo: https://www.youtube.com/watch?v=OQ-xL9RxJz8&t=7s
 ---
 
-### ⭐ 2) Manufacturing Yield Analytics (Golden Batch / Best vs Worst)
-**Problem:** Identify yield variability drivers & process deviations across batches.  
-**Solution:** Statistical + ML analysis + dashboarding for root-cause insights.  
-**Tech:** Python, Dataiku, Power BI, Time-series, PCA/UVA/MVA  
-🔗 **Repo:** https://github.com/biswanathbose-cicd/terraform-eks-agentic-app
-📊 **Dashboard Screens:** `assets/project_screenshots/yield_dashboard.png`
-
----
-
-### ⭐ 3) PI Tag Time-Series Forecasting + Anomaly Detection
-**Problem:** Detect anomalies early and forecast critical process signals.  
-**Solution:** Feature engineering + anomaly models + forecasting pipeline.  
-**Tech:** Python, STL/Prophet/ARIMA, IsolationForest, Dash/Plotly  
-🔗 **Repo:** https://github.com/YOUR_GITHUB_USERNAME/REPO_NAME
-
----
-
-### ⭐ 4) Recommendation System (Co-Clustering + Deep Learning Upgrade)
-**Problem:** Improve personalization & evaluate with precision@k/recall@k/F1@k.  
-**Solution:** Baseline co-clustering + roadmap for autoencoder/transformer upgrade.  
-**Tech:** scikit-learn, PyTorch/TensorFlow (optional), SageMaker/Lambda, Streamlit  
-🔗 **Repo:** https://github.com/YOUR_GITHUB_USERNAME/REPO_NAME
-
----
-
-### ⭐ 5) Agentic AI with LangGraph (Supervisor + Tools + Memory)
-**Problem:** Build a multi-step reasoning agent for enterprise workflows.  
-**Solution:** Multi-agent orchestration with tools, memory, and guardrails.  
-**Tech:** LangGraph, FastAPI, Docker, Vector DB, Observability  
-🔗 **Repo:** https://github.com/YOUR_GITHUB_USERNAME/REPO_NAME
+### ⭐ 2) Generative & Agentic AI Portfolio (Multi-Agent Assistant + Evaluation + MLOps)
+**Problem:** Building a conversational AI system is easy to demo but hard to trust: it needs tool use, guardrails, rigorous evaluation, clean data and monitoring.  
+**Solution:** Four runnable projects: a multi-agent retail support assistant (router, tool-calling agents, RAG product search, PII/injection guardrails), an evaluation & A/B-testing framework with error analysis, a 7-day demand-forecasting model, and a conversation-log data pipeline with quality gates and drift monitoring.  
+**Tech:** Python, scikit-learn, FastAPI, Docker, RAG (TF-IDF), prompt/guardrail design, LLM-as-judge, A/B testing, PSI drift monitoring  
+🔗 **Repo:** https://github.com/biswanathbose-cicd/generative-agentic-portfolio  
+ℹ️ Runs offline on synthetic data with a rule-based LLM stand-in; pluggable Anthropic/OpenAI backends.
 
 ---
 
