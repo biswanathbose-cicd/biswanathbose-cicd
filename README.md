@@ -70,11 +70,21 @@
 
 ---
 
+### ⭐ 3) Incident Intelligence Engine (ITSM Ticket Triage + Similar-Incident Search)
+**Problem:** Support teams lose time routing tickets and rediscovering fixes for problems that were already solved.  
+**Solution:** A Python ML package that predicts ticket category/priority with explanations and retrieves similar past incidents. TF-IDF, Naive Bayes, softmax regression, top-k selection and exact/LSH search are hand-written, tested against scikit-learn, profiled and benchmarked behind swappable strategy interfaces.  
+**Tech:** Python, NumPy/SciPy, OOP & design patterns, unit testing, cProfile/tracemalloc, FastAPI, Docker  
+🔗 **Repo:** https://github.com/biswanathbose-cicd/incident-intelligence-engine  
+ℹ️ Synthetic data; results and limitations are documented in the repo README.
+
+---
+
 ## 🧭 Project Index (All Projects)
 | Category | Projects |
 |---|---|
 | GenAI / RAG | RAG Email Automation, Doc Intelligence RAG, Agentic Workflows, Multi-Agent Support Assistant, LLM Evaluation & A/B Testing |
 | Predictive Analytics | Demand Forecasting (rolling-origin validation, prediction intervals) |
+| Applied ML / Algorithms | Incident Intelligence Engine (NLP triage, similarity search, profiling & benchmarks) |
 | Data Engineering | Conversation-Log Pipeline (data quality, PII redaction, drift monitoring) |
 | MLOps / Deployment | FastAPI + Docker, CI/CD, MLflow Registration, K8s Deploy, Kubernetes Observability (Terraform + ELK) |
 
